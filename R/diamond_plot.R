@@ -10,11 +10,11 @@
 #' @export
 #'
 #' @importFrom ggplot2 ggplot
-#' @importFrom ggplot2 geom_points
+#' @importFrom ggplot2 geom_point
 #'
 #' @examples
 #'df.test <- data.frame(x = rnorm(10),
-#'                    y = rnorm(10))
+#'                      y = rnorm(10))
 #'diamond_plot(df.test, 'x', 'y')
 #'
 diamond_plot <- function(df, varx, vary){
